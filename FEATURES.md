@@ -29,3 +29,7 @@ Dokumen ini berisi daftar fitur sistem workflow yang digunakan dalam WPWK.
 - **Existing Project Documentation Adoption**: Panduan penerapan WPWK ke project berjalan.
 - **Existing Feature Inventory**: Sistem pendataan fitur project yang sudah ada.
 - **Existing Project Audit Summary**: Standar audit awal untuk project berjalan.
+- **History Layer Separation**: Pemisahan layer history dari workflow/control layer.
+- **Removable Workflow Control Layer**: Folder docs/project/ yang dapat dilepas untuk project turunan.
+- **Persistent Project Memory Layer**: Folder docs/history/ sebagai penyimpan status dan riwayat permanen.
+- **Public / Client-Safe History Mode**: Gaya bahasa netral untuk repo publik atau client-facing.

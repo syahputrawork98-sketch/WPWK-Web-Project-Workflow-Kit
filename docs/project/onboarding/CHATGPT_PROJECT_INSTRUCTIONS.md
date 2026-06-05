@@ -13,9 +13,9 @@ Saat memulai project atau chat baru, AI wajib memahami konteks dengan membaca (a
 4. `docs/project/README.md`
 5. `docs/project/workflow/WORKING_SYSTEM.md`
 6. `docs/project/workflow/MODEL_USAGE_GUIDE.md`
-7. `docs/project/history/CURRENT_STATUS.md`
-8. `docs/project/history/FEATURE_HISTORY.md`
-9. `docs/project/history/features/F00_PROJECT_WORKFLOW_FOUNDATION.md`
+7. `docs/history/CURRENT_STATUS.md`
+8. `docs/history/FEATURE_HISTORY.md`
+9. `docs/history/features/F00_PROJECT_WORKFLOW_FOUNDATION.md`
 
 ## Instruksi Sistem (Copy-Paste)
 ```text

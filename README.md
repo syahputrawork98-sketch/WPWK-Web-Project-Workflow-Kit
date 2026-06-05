@@ -36,4 +36,4 @@ Repository ini menggunakan struktur dokumentasi terpusat di dalam folder `docs/`
 
 ## Status Awal Project
 
-Project WPWK saat ini sedang dalam tahap inisialisasi workflow foundation (Batch F00). Detail status dapat dilihat di `docs/project/history/CURRENT_STATUS.md`.
+Project WPWK saat ini sedang dalam tahap inisialisasi workflow foundation (Batch F00). Detail status dapat dilihat di `docs/history/CURRENT_STATUS.md`.

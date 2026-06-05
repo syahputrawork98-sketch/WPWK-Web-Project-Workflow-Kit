@@ -152,8 +152,8 @@ Menambahkan struktur kontrol WPWK ke project existing.
 Umumnya boleh dibuat:
 - docs/project/
 - docs/project/workflow/
-- docs/project/history/
-- docs/project/history/features/
+- docs/history/
+- docs/history/features/
 - docs/project/onboarding/
 
 Tetapi:
@@ -258,9 +258,9 @@ Menambahkan lapisan kontrol paling kecil agar project mulai bisa dikendalikan de
 
 Boleh membuat maksimal 1 sampai 3 file, misalnya:
 
-* docs/project/history/CURRENT_STATUS.md
-* docs/project/history/FEATURE_HISTORY.md
-* docs/project/history/features/F00_EXISTING_PROJECT_ADOPTION.md
+* docs/history/CURRENT_STATUS.md
+* docs/history/FEATURE_HISTORY.md
+* docs/history/features/F00_EXISTING_PROJECT_ADOPTION.md
 
 Tidak boleh:
 

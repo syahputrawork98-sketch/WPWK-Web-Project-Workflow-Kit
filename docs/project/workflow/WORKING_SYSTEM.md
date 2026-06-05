@@ -97,9 +97,60 @@ Gunakan Documentation Debt ketika:
 
 Documentation Debt wajib diselesaikan melalui eksekusi **FXX-CP — Documentation Checkpoint**.
 
+## History Layer Separation
+
+- `docs/project/` adalah workflow/control layer.
+- `docs/history/` adalah persistent project memory layer.
+- `CURRENT_STATUS.md`, `FEATURE_HISTORY.md`, dan folder `features/` harus berada di `docs/history/`.
+- `docs/project/` boleh dianggap removable/internal workflow layer pada project turunan.
+- `docs/history/` sebaiknya tetap disimpan karena berisi status project, feature tracker, dan riwayat pengerjaan.
+- Jangan menyimpan history utama di `docs/project/history/` lagi.
+
+### Internal Workflow Layer
+`docs/project/` digunakan untuk:
+- onboarding AI
+- prompt Roomchat
+- workflow system
+- batch templates
+- specialist room templates
+- existing adoption rules
+- scenario playbook
+
+### Persistent History Layer
+`docs/history/` digunakan untuk:
+- CURRENT_STATUS.md
+- FEATURE_HISTORY.md
+- feature files
+- project status
+- feature roadmap
+- decision history
+- checkpoint history
+
+## Public / Client-Safe History Mode
+
+Jika `docs/history/` akan tetap disimpan di repo publik atau repo client, gunakan gaya bahasa netral.
+
+Hindari kalimat seperti:
+- Gemini mengerjakan...
+- ChatGPT Roomchat 00 memberi instruksi...
+- AI melakukan...
+- Prompt ini dibuat oleh...
+
+Gunakan bahasa netral seperti:
+- Batch diselesaikan.
+- Scope telah divalidasi.
+- Status fitur diperbarui.
+- Dokumentasi telah disinkronkan.
+- Siap lanjut ke batch berikutnya.
+
+Aturan tambahan:
+- Internal AI details boleh tetap berada di `docs/project/`.
+- `docs/history/` sebaiknya ditulis agar tetap aman dibaca tanpa terlalu menonjolkan proses AI.
+- Jika user ingin membersihkan project turunan, `docs/project/` dapat dilepas, tetapi `docs/history/` tetap dapat dipertahankan.
+
 ## Feature File Standard Format
 
-Setiap file di `docs/project/history/features/` wajib memakai struktur:
+Setiap file di `docs/history/features/` wajib memakai struktur:
 * Feature Summary
 * Status
 * Story

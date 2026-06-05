@@ -1,6 +1,7 @@
 # Review Checklist Template
 
 Digunakan oleh Room 01 atau User untuk mengaudit hasil eksekusi.
+*Catatan: Template review ini digunakan hanya jika Roomchat 00/user meminta review. Tidak semua batch wajib memakai review checklist.*
 
 **Batch ID:** [FXX-A]
 

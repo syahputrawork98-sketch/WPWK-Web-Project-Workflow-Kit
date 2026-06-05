@@ -118,6 +118,65 @@ Aturan penamaan dan pemisahan fitur:
 * `CURRENT_STATUS.md` hanya dashboard ringkas.
 * Detail panjang sub-batch disimpan di file feature masing-masing.
 
+## Post-Batch Acceptance Flow
+- Gemini Anti-Gravity selesai mengerjakan batch dan mengirim laporan.
+- User mengirim laporan hasil batch ke Roomchat 00.
+- Roomchat 00 mengecek laporan berdasarkan scope, file yang berubah, status akhir, validasi, dan risiko.
+- Roomchat 00 menentukan salah satu acceptance result:
+  - **Accepted**: Lanjut jika next step jelas dan tidak membutuhkan keputusan baru dari user.
+  - **Accepted with Notes**: Lanjut, tetapi catatan harus masuk batch berikutnya atau checkpoint.
+  - **Needs Fix**: Buat patch kecil seperti FXXA.1.
+  - **Needs Roomchat 01 Review**: Roomchat 01 hanya menganalisis dan memberi rekomendasi.
+  - **Blocked / HOLD / Rejected**: Jangan lanjut sebelum masalah jelas.
+
+## Review Policy
+- Roomchat 01 review tidak wajib untuk setiap batch.
+- Roomchat 01 dipanggil hanya jika Roomchat 00 atau user merasa perlu.
+- Review bersifat risk-based, bukan ritual setiap batch.
+
+### Kapan tidak perlu Roomchat 01
+- Batch dokumentasi ringan.
+- Small batch 1 sampai 3 file.
+- Tidak menyentuh client/server/database.
+- Tidak membuat dependency/config.
+- Tidak mengubah arsitektur.
+- Tidak ada security/auth/deployment risk.
+- Laporan eksekutor jelas.
+- User bisa cek manual dengan mudah.
+
+### Kapan perlu Roomchat 01
+- Batch medium/large dengan banyak file.
+- Menyentuh lebih dari satu area besar.
+- Frontend-backend integration.
+- Backend-database integration.
+- Auth, login, role, permission.
+- Deployment, env, domain.
+- Refactor besar.
+- Perubahan struktur folder besar.
+- Status Partial/Blocked.
+- Ada kejanggalan dari laporan Gemini.
+- User atau Roomchat 00 ragu.
+
+### Kapan User Harus Konfirmasi Dulu
+- Sebelum membuat kode pertama kali.
+- Sebelum install dependency.
+- Sebelum setup framework.
+- Sebelum membuat database schema/migration.
+- Sebelum menyentuh auth/security.
+- Sebelum deployment/domain/env.
+- Sebelum delete/rename file/folder.
+- Sebelum mengubah arah fitur utama.
+- Sebelum memilih project type jika belum jelas.
+
+### Kapan Roomchat 00 Boleh Menyiapkan Batch Berikutnya
+- Batch sebelumnya Completed.
+- Roomchat 00 memberi Accepted atau Accepted with Notes.
+- Tidak ada blocker.
+- Next step jelas.
+- Batch berikutnya masih dalam scope yang sama.
+- Tidak menyentuh area sensitif.
+- Tidak membutuhkan keputusan baru dari user.
+
 ## Safety Rules
 - Jangan menyimpan credential/secret di repository (gunakan file `.env.example` sebagai panduan).
 - Jangan men-generate kode ekstensif di luar scope instruksi.

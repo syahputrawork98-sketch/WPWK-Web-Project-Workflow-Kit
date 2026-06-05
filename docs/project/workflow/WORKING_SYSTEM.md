@@ -177,6 +177,10 @@ Aturan penamaan dan pemisahan fitur:
 - Tidak menyentuh area sensitif.
 - Tidak membutuhkan keputusan baru dari user.
 
+## Referensi Skenario Workflow
+Untuk memilih cara kerja seperti docs-first, client-first, server-first, prototype, production-safe, atau specialist analysis room, gunakan `docs/project/workflow/WORKFLOW_SCENARIOS.md`.
+WORKFLOW_SCENARIOS.md tidak menggantikan WORKING_SYSTEM.md, hanya menjadi playbook skenario.
+
 ## Safety Rules
 - Jangan menyimpan credential/secret di repository (gunakan file `.env.example` sebagai panduan).
 - Jangan men-generate kode ekstensif di luar scope instruksi.

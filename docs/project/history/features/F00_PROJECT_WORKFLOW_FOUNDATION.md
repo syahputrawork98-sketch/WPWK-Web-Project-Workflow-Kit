@@ -17,6 +17,7 @@ F00 membangun sistem kerja WPWK sebagai template project web berbasis ChatGPT, G
 * F00E menyelaraskan format feature tracking.
 * F00F menyeragamkan penamaan WPWK.
 * F00G menambahkan post-batch acceptance flow dan risk-based review policy.
+* F00H menambahkan panduan skenario workflow dan alur ruang analisa spesialis.
 
 ## Sub-Batch Roadmap
 | Sub-Batch | Name | Status | Purpose | Dependency |
@@ -28,6 +29,7 @@ F00 membangun sistem kerja WPWK sebagai template project web berbasis ChatGPT, G
 | F00E | Feature File Format Alignment | Completed | Menyelaraskan format feature | F00A |
 | F00F | Project Naming Standardization | Completed | Menyeragamkan penamaan project | F00E |
 | F00G | Post-Batch Acceptance and Review Policy | Completed | Menambah alur acceptance dan review | F00F |
+| F00H | Workflow Scenario Playbook | Completed | Menambahkan skenario penggunaan workflow | F00G |
 
 ## HOLD / Blocked Notes
 Tidak ada blocker aktif.
@@ -43,4 +45,6 @@ Lanjut ke perencanaan F01 (Project Foundation) jika user ingin mulai mengembangk
 - [x] Tidak ada kode/config/dependency.
 
 ## Notes
-Catatan singkat hasil F00A sampai F00G: Seluruh fondasi workflow dan panduan penggunaan WPWK telah berhasil didirikan dan diselaraskan strukturnya, siap diadaptasi untuk project turunan.
+Catatan singkat hasil F00A sampai F00H: Seluruh fondasi workflow dan panduan penggunaan WPWK telah berhasil didirikan dan diselaraskan strukturnya, siap diadaptasi untuk project turunan.
+
+Catatan untuk F00H: Memperjelas skenario docs-first, client-first, backend-first, database-first, prototype, production-safe, review-light/heavy, template adaptation, dan specialist analysis room.

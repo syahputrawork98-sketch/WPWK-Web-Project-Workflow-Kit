@@ -5,6 +5,17 @@ Dokumen ini digunakan saat WPWK dipakai sebagai template untuk project nyata ata
 
 Isi checklist minimal:
 
+* Mode penggunaan
+  * [ ] Greenfield / project dari nol
+  * [ ] Existing project / project sudah berjalan
+
+Jika existing project:
+  * [ ] Jalankan Existing Project Adoption terlebih dahulu
+  * [ ] Jangan ubah client/server sebelum audit
+  * [ ] Buat Existing Project Audit Summary
+  * [ ] Buat Feature Inventory berdasarkan fitur nyata
+  * [ ] Gunakan status Existing / Needs Review jika belum divalidasi
+
 * Project identity
   * [ ] Nama project sudah ditentukan
   * [ ] Nama repository sudah sesuai

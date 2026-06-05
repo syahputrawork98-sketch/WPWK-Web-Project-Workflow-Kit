@@ -23,5 +23,9 @@ Dokumen ini berisi daftar fitur sistem workflow yang digunakan dalam WPWK.
 - **Workflow Scenario Playbook**: Kumpulan skenario penggunaan workflow.
 - **Specialist Analysis Room Workflow**: Alur kerja penggunaan spesialis eksternal.
 - **Project Starter Checklist**: Checklist persiapan saat memulai project nyata.
+- **Project Starter Checklist**: Checklist persiapan saat memulai project nyata.
 - **Roomchat 00 Acceptance Template**: Standar validasi hasil eksekusi oleh Manager Room 00.
 - **Specialist Analysis Template**: Standar ringkasan saran dari spesialis ruang eksternal.
+- **Existing Project Documentation Adoption**: Panduan penerapan WPWK ke project berjalan.
+- **Existing Feature Inventory**: Sistem pendataan fitur project yang sudah ada.
+- **Existing Project Audit Summary**: Standar audit awal untuk project berjalan.

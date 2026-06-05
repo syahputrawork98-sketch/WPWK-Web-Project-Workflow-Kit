@@ -19,6 +19,7 @@ F00 membangun sistem kerja WPWK sebagai template project web berbasis ChatGPT, G
 * F00G menambahkan post-batch acceptance flow dan risk-based review policy.
 * F00H menambahkan panduan skenario workflow dan alur ruang analisa spesialis.
 * F00I menambahkan template operasional dan starter checklist.
+* F00J menambahkan panduan adoption untuk project existing.
 
 ## Sub-Batch Roadmap
 | Sub-Batch | Name | Status | Purpose | Dependency |
@@ -32,6 +33,7 @@ F00 membangun sistem kerja WPWK sebagai template project web berbasis ChatGPT, G
 | F00G | Post-Batch Acceptance and Review Policy | Completed | Menambah alur acceptance dan review | F00F |
 | F00H | Workflow Scenario Playbook | Completed | Menambahkan skenario penggunaan workflow | F00G |
 | F00I | Operational Templates and Starter Checklist | Completed | Menambahkan template operasional praktis | F00H |
+| F00J | Existing Project Documentation Adoption | Completed | Panduan implementasi WPWK untuk project berjalan | F00I |
 
 ## HOLD / Blocked Notes
 Tidak ada blocker aktif.
@@ -47,7 +49,8 @@ Lanjut ke perencanaan F01 (Project Foundation) jika user ingin mulai mengembangk
 - [x] Tidak ada kode/config/dependency.
 
 ## Notes
-Catatan singkat hasil F00A sampai F00I: Seluruh fondasi workflow dan panduan penggunaan WPWK telah berhasil didirikan dan diselaraskan strukturnya, siap diadaptasi untuk project turunan.
+Catatan singkat hasil F00A sampai F00J: Seluruh fondasi workflow dan panduan penggunaan WPWK telah berhasil didirikan dan diselaraskan strukturnya, siap diadaptasi untuk project turunan.
 
 Catatan untuk F00H: Memperjelas skenario docs-first, client-first, backend-first, database-first, prototype, production-safe, review-light/heavy, template adaptation, dan specialist analysis room.
-Catatan untuk F00I: Ini adalah batch terakhir yang direkomendasikan sebelum F00-CP, kecuali user menemukan kekurangan penting lain.
+Catatan untuk F00I: Ini adalah batch operasional terakhir.
+Catatan untuk F00J: Memungkinkan WPWK dipakai untuk dua jalur: project dari nol (Greenfield) dan project existing dengan client/server matang tetapi docs belum rapi.

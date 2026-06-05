@@ -9,3 +9,8 @@ Dokumen ini berisi daftar fitur sistem workflow yang digunakan dalam WebPWK.
 - **Executor Report System**: Standar pelaporan eksekusi dari Gemini ke User.
 - **Review Checklist System**: Standar audit hasil eksekusi oleh Room 01.
 - **Documentation Checkpoint System**: Pos pemeriksaan (FXX-CP) untuk memastikan sinkronisasi dokumentasi dan kode.
+- **Technical Area Documentation System**: Aturan pencatatan area frontend, backend, dan database.
+- **Frontend Role Documentation Rule**: Standar penulisan arsitektur UI dan akses halaman.
+- **Backend Role and Permission Documentation Rule**: Standar penulisan API endpoint dan middleware.
+- **Database Access and Ownership Documentation Rule**: Standar penulisan skema relasi dan kepemilikan data.
+- **Single Role / Multi Role Project Recording Rule**: Aturan pembedaan dokumentasi antara project dengan satu atau banyak role.

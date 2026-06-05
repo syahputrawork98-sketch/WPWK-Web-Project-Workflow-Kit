@@ -12,6 +12,7 @@ Membangun fondasi dokumentasi dasar, sistem tata letak, panduan model, template 
 ## Sub-batch
 - **F00A — Initial Documentation Structure**
 - **F00B — Add Client and Server Placeholder Structure** (Completed)
+- **F00C — Technical Area Documentation Rules** (Completed)
 
 ## Hasil Utama
 Pembuatan struktur folder `docs/` yang komprehensif beserta seluruh file pedoman utama (`WORKING_SYSTEM.md`, `MODEL_USAGE_GUIDE.md`, template instruksi, dll).

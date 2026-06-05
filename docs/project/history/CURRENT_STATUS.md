@@ -13,7 +13,7 @@
 |-------|---------|--------|
 | F00 | Project Workflow Foundation | Completed |
 
-*Catatan: Batch F00B menambahkan struktur placeholder untuk folder `client/` dan `server/`.*
+*Catatan: Batch F00B menambahkan struktur placeholder untuk folder `client/` dan `server/`. Batch F00C menambahkan aturan dokumentasi teknis untuk frontend, backend, dan database.*
 
 ## Next Recommended Step
 - Review hasil Batch F00A.

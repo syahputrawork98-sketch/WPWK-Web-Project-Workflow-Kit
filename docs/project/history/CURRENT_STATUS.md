@@ -13,6 +13,8 @@
 |-------|---------|--------|
 | F00 | Project Workflow Foundation | Completed |
 
+*Catatan: Batch F00B menambahkan struktur placeholder untuk folder `client/` dan `server/`.*
+
 ## Next Recommended Step
 - Review hasil Batch F00A.
 - Lakukan git commit dan push untuk menyimpan fondasi dokumentasi.

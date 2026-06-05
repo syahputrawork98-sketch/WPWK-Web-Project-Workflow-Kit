@@ -11,6 +11,8 @@ Repository ini menggunakan struktur dokumentasi terpusat di dalam folder `docs/`
 - `docs/backend/` - Dokumentasi khusus area backend.
 - `docs/database/` - Dokumentasi khusus area database.
 - `docs/deployment/` - Dokumentasi khusus area deployment.
+- `client/` - Folder placeholder untuk aplikasi frontend website (belum berisi implementasi teknis).
+- `server/` - Folder placeholder untuk aplikasi backend, API, atau server logic (belum berisi implementasi teknis).
 
 ## Prinsip Utama
 

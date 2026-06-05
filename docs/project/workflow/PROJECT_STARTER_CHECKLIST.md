@@ -10,6 +10,14 @@ Isi checklist minimal:
   * [ ] Existing project / project sudah berjalan
 
 Jika existing project:
+  * [ ] Adoption level sudah dipilih
+  * [ ] Level 0 read-only pre-scan sudah dilakukan jika project belum dipahami
+  * [ ] Tidak membuat banyak file WPWK sekaligus
+  * [ ] Tidak menimpa README lama sebelum mapping
+  * [ ] Tidak membuat folder client/server baru jika project existing sudah punya struktur sendiri
+  * [ ] Tidak membuat banyak feature files sebelum inventory disetujui
+  * [ ] Batch awal maksimal 1–3 file jika bukan read-only
+  * [ ] Kode/config/dependency/env/deployment tidak disentuh pada adoption awal
   * [ ] Jalankan Existing Project Adoption terlebih dahulu
   * [ ] Jangan ubah client/server sebelum audit
   * [ ] Buat Existing Project Audit Summary

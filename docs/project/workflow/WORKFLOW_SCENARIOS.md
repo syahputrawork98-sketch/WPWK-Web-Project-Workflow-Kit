@@ -144,6 +144,10 @@ Jelaskan bahwa dokumen ini berisi skenario cara memakai WPWK dalam berbagai kond
 ## 11. Existing Project Documentation Adoption Workflow
 - Digunakan saat WPWK diterapkan pada project yang sudah punya client/server matang tetapi docs berantakan. Workflow ini menggunakan `EXISTING_PROJECT_ADOPTION.md`.
 - Jangan pakai Project Starter Checklist biasa tanpa audit existing.
+- Gunakan progressive adoption levels dari EXISTING_PROJECT_ADOPTION.md.
+- Jangan langsung memasukkan seluruh struktur WPWK.
+- Untuk project existing, mulai dari Level 0 Read-only Pre-Scan atau Level 1 Minimal Control Layer.
+- Jika user meminta “rapikan semua”, pecah menjadi batch bertahap.
 - Alur detail ada di panduan existing adoption.
 
 ## 12. Specialist Analysis Room Workflow

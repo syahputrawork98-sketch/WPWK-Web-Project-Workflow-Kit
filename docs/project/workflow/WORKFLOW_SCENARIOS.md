@@ -105,7 +105,7 @@ Jelaskan bahwa dokumen ini berisi skenario cara memakai WPWK dalam berbagai kond
 
 ## 8. Review-Light Workflow
 - Cocok untuk typo, naming, docs ringan, placeholder, update table kecil.
-- Alur:
+- Alur (Post-batch / review-light dapat memakai ROOM_00_ACCEPTANCE_TEMPLATE.md):
   1. Roomchat 00 buat batch.
   2. Gemini eksekusi.
   3. Roomchat 00 accept.
@@ -115,7 +115,7 @@ Jelaskan bahwa dokumen ini berisi skenario cara memakai WPWK dalam berbagai kond
 
 ## 9. Review-Heavy Workflow
 - Cocok untuk auth, role permission, database schema, deployment, refactor besar, frontend-backend integration.
-- Alur:
+- Alur (Post-batch / review-heavy dapat memakai ROOM_00_ACCEPTANCE_TEMPLATE.md):
   1. Roomchat 00 buat batch.
   2. Gemini eksekusi.
   3. Roomchat 00 cek laporan.
@@ -126,7 +126,7 @@ Jelaskan bahwa dokumen ini berisi skenario cara memakai WPWK dalam berbagai kond
   - jangan memakai review-heavy untuk pekerjaan kecil agar workflow tidak lambat.
 
 ## 10. Template-to-Project Adaptation Workflow
-- Digunakan saat WPWK di-clone atau dijadikan dasar project nyata.
+- Digunakan saat WPWK di-clone atau dijadikan dasar project nyata. Workflow ini menggunakan `PROJECT_STARTER_CHECKLIST.md`.
 - Alur:
   1. Clone WPWK ke repo project baru.
   2. Ganti/adaptasi nama project.
@@ -142,7 +142,7 @@ Jelaskan bahwa dokumen ini berisi skenario cara memakai WPWK dalam berbagai kond
   - Jangan campur F00 workflow foundation dengan fitur aplikasi.
 
 ## 11. Specialist Analysis Room Workflow
-- Digunakan saat user butuh analisa mendalam tanpa membebani Roomchat 00.
+- Digunakan saat user butuh analisa mendalam tanpa membebani Roomchat 00. Workflow ini menggunakan `SPECIALIST_ANALYSIS_TEMPLATE.md`.
 - Roomchat spesialis bisa dibuat di ChatGPT.com untuk topik tertentu, misalnya:
   - UX / UI
   - Frontend

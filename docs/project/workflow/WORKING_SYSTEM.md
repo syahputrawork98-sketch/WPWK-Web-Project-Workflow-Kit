@@ -177,6 +177,11 @@ Aturan penamaan dan pemisahan fitur:
 - Tidak menyentuh area sensitif.
 - Tidak membutuhkan keputusan baru dari user.
 
+## Operational Templates
+* `PROJECT_STARTER_CHECKLIST.md` digunakan saat WPWK mulai dipakai untuk project nyata.
+* `ROOM_00_ACCEPTANCE_TEMPLATE.md` digunakan setelah Gemini selesai batch.
+* `SPECIALIST_ANALYSIS_TEMPLATE.md` digunakan saat analisa dilakukan di roomchat spesialis.
+
 ## Referensi Skenario Workflow
 Untuk memilih cara kerja seperti docs-first, client-first, server-first, prototype, production-safe, atau specialist analysis room, gunakan `docs/project/workflow/WORKFLOW_SCENARIOS.md`.
 WORKFLOW_SCENARIOS.md tidak menggantikan WORKING_SYSTEM.md, hanya menjadi playbook skenario.

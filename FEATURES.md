@@ -22,3 +22,6 @@ Dokumen ini berisi daftar fitur sistem workflow yang digunakan dalam WPWK.
 - **Documentation Debt / Docs Later Rule**: Mekanisme penundaan pembaruan dokumen melalui checkpoint.
 - **Workflow Scenario Playbook**: Kumpulan skenario penggunaan workflow.
 - **Specialist Analysis Room Workflow**: Alur kerja penggunaan spesialis eksternal.
+- **Project Starter Checklist**: Checklist persiapan saat memulai project nyata.
+- **Roomchat 00 Acceptance Template**: Standar validasi hasil eksekusi oleh Manager Room 00.
+- **Specialist Analysis Template**: Standar ringkasan saran dari spesialis ruang eksternal.

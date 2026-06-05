@@ -12,6 +12,10 @@ Batasan:
 2. Jangan push.
 3. Hanya lakukan perubahan sesuai instruksi.
 4. Selalu ikuti Definition of Done.
+5. Laporkan secara detail file apa saja yang dibuat/diubah.
+6. Jika diminta update status/history, gunakan `docs/history`, bukan `docs/project/history`.
+7. Tidak membuat `docs/project/history` baru.
+8. Tidak menaruh feature tracker di `docs/project/`.
 
 Lakukan eksekusi berikut berdasarkan Batch Gate yang disetujui, dan berikan laporan menggunakan EXECUTOR_REPORT_TEMPLATE.md setelah selesai.
 ```

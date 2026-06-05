@@ -22,6 +22,7 @@ F00 membangun sistem kerja WPWK sebagai template project web berbasis ChatGPT, G
 * F00J menambahkan panduan adoption untuk project existing.
 * F00J.1 menambahkan existing adoption guardrails dan progressive levels.
 * F00K memisahkan history layer dari workflow/control layer.
+* F00K.1 menyinkronkan file onboarding dengan struktur history baru.
 
 ## Sub-Batch Roadmap
 | Sub-Batch | Name | Status | Purpose | Dependency |
@@ -38,6 +39,7 @@ F00 membangun sistem kerja WPWK sebagai template project web berbasis ChatGPT, G
 | F00J | Existing Project Documentation Adoption | Completed | Panduan implementasi WPWK untuk project berjalan | F00I |
 | F00J.1 | Existing Adoption Guardrails | Completed | Menambahkan batas adopsi dan anti-blunder rules | F00J |
 | F00K | History Layer Separation Policy | Completed | Memisahkan history dari workflow/control layer | F00J.1 |
+| F00K.1 | Onboarding Path and Layer Alignment | Completed | Menyinkronkan file onboarding dengan struktur history baru | F00K |
 
 ## HOLD / Blocked Notes
 Tidak ada blocker aktif.
@@ -60,3 +62,4 @@ Catatan untuk F00I: Ini adalah batch operasional terakhir.
 Catatan untuk F00J: Memungkinkan WPWK dipakai untuk dua jalur: project dari nol (Greenfield) dan project existing dengan client/server matang tetapi docs belum rapi.
 Catatan untuk F00J.1: F00J.1 memperkuat F00J dengan progressive adoption levels dan anti-blunder rules agar WPWK tidak membanjiri project existing dengan banyak file baru.
 Catatan untuk F00K: F00K memindahkan history dari docs/project/history/ ke docs/history/ agar docs/project/ dapat menjadi removable workflow/control layer, sementara docs/history/ tetap menjadi persistent project memory.
+Catatan untuk F00K.1: F00K.1 memastikan semua onboarding membaca path history baru dan tidak lagi mengarahkan AI ke docs/project/history.

@@ -9,13 +9,15 @@
 
 ## Active Feature Tracker
 
-| Batch | Feature | Status |
-|-------|---------|--------|
-| F00 | Project Workflow Foundation | Completed |
-
-*Catatan: Batch F00B menambahkan struktur placeholder untuk folder `client/` dan `server/`. Batch F00C menambahkan aturan dokumentasi teknis untuk frontend, backend, dan database. Batch F00D menambahkan aturan project type, documentation depth, dan adaptasi template untuk project turunan.*
+| Feature Batch | Feature Name | Area | Status | Reason / HOLD Notes | Next Step | Detail File |
+| --- | --- | --- | --- | --- | --- | --- |
+| F00 | WebPWK Workflow Foundation | docs/project | Completed | Fondasi workflow template WebPWK | Lanjut ke F01 jika user ingin mulai project foundation berikutnya | features/F00_PROJECT_WORKFLOW_FOUNDATION.md |
 
 ## Next Recommended Step
-- Review hasil Batch F00A.
 - Lakukan git commit dan push untuk menyimpan fondasi dokumentasi.
 - Mulai perencanaan untuk Batch F01 (Project Foundation).
+
+## Safety Rules
+- Jangan menyimpan credential/secret di repository.
+- Jangan men-generate kode ekstensif di luar scope instruksi.
+- Eksekutor dilarang melakukan git commit dan git push.

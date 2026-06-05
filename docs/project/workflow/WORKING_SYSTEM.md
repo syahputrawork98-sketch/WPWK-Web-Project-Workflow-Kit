@@ -97,6 +97,27 @@ Gunakan Documentation Debt ketika:
 
 Documentation Debt wajib diselesaikan melalui eksekusi **FXX-CP — Documentation Checkpoint**.
 
+## Feature File Standard Format
+
+Setiap file di `docs/project/history/features/` wajib memakai struktur:
+* Feature Summary
+* Status
+* Story
+* Current State
+* Sub-Batch Roadmap
+* HOLD / Blocked Notes
+* Next Step
+* Validation Checklist
+* Notes
+
+Aturan penamaan dan pemisahan fitur:
+* `F00` dipakai khusus untuk workflow foundation.
+* Jangan mencampur `F00` dengan fitur aplikasi nyata.
+* Fitur aplikasi/project turunan sebaiknya dimulai dari `F01` atau sistem penamaan yang disepakati.
+* `FEATURE_HISTORY.md` hanya index.
+* `CURRENT_STATUS.md` hanya dashboard ringkas.
+* Detail panjang sub-batch disimpan di file feature masing-masing.
+
 ## Safety Rules
 - Jangan menyimpan credential/secret di repository (gunakan file `.env.example` sebagai panduan).
 - Jangan men-generate kode ekstensif di luar scope instruksi.

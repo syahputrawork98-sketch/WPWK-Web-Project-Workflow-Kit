@@ -1,29 +1,42 @@
-# F00: Project Workflow Foundation
+# Batch F00 — WebPWK Workflow Foundation
 
-## Story
-Project membutuhkan sistem manajemen alur kerja (workflow) yang jelas untuk mengatur interaksi antara AI (ChatGPT dan Gemini) dan User, memastikan keamanan, struktur terpusat, dan integrasi mulus dengan GitHub dan Anti-Gravity IDE.
+## Feature Summary
+Fondasi F00 membangun sistem kerja WebPWK sebagai template project web berbasis ChatGPT, Gemini Anti-Gravity, GitHub, batch, dokumentasi, dan validasi.
 
 ## Status
 Completed
 
-## Scope
-Membangun fondasi dokumentasi dasar, sistem tata letak, panduan model, template pelaporan, dan instruksi peran.
+## Story
+F00 membangun sistem kerja WebPWK sebagai template project web berbasis ChatGPT, Gemini Anti-Gravity, GitHub, batch, dokumentasi, dan validasi.
 
-## Sub-batch
-- **F00A — Initial Documentation Structure**
-- **F00B — Add Client and Server Placeholder Structure** (Completed)
-- **F00C — Technical Area Documentation Rules** (Completed)
-- **F00D — Project Type and Template Adaptation Rules** (Completed)
+## Current State
+* Fondasi dokumentasi sudah dibuat.
+* Placeholder client/server sudah dibuat.
+* Aturan frontend/backend/database docs sudah dibuat.
+* Aturan project type dan template adaptation sudah dibuat.
+* F00E menyelaraskan format feature tracking.
 
-## Hasil Utama
-Pembuatan struktur folder `docs/` yang komprehensif beserta seluruh file pedoman utama (`WORKING_SYSTEM.md`, `MODEL_USAGE_GUIDE.md`, template instruksi, dll).
+## Sub-Batch Roadmap
+| Sub-Batch | Name | Status | Purpose | Dependency |
+|-----------|------|--------|---------|------------|
+| F00A | Initial Documentation Structure | Completed | Membuat fondasi docs awal | - |
+| F00B | Add Client and Server Placeholder Structure | Completed | Menyiapkan folder client/server | F00A |
+| F00C | Technical Area Documentation Rules | Completed | Aturan teknis FE/BE/DB | F00A |
+| F00D | Project Type and Template Adaptation Rules | Completed | Aturan adaptasi template | F00C |
+| F00E | Feature File Format Alignment | Completed | Menyelaraskan format feature | F00A |
 
-## Reason / HOLD Notes
-- (Kosong)
+## HOLD / Blocked Notes
+Tidak ada blocker aktif.
 
 ## Next Step
-User melakukan review terhadap dokumentasi yang dihasilkan, melakukan commit dan push ke GitHub.
+Lanjut ke perencanaan F01 (Project Foundation) jika user ingin mulai mengembangkan project turunan.
 
-## Catatan Risiko
-- Memastikan user tidak mengabaikan aturan "Tidak ada AI yang boleh commit/push".
-- File template perlu ditaati dengan konsisten agar sistem berjalan lancar.
+## Validation Checklist
+- [x] CURRENT_STATUS.md sudah sinkron.
+- [x] FEATURE_HISTORY.md sudah sinkron.
+- [x] F00 feature file sudah pakai format standar.
+- [x] Tidak ada App00 atau fitur aplikasi yang dicampur ke F00.
+- [x] Tidak ada kode/config/dependency.
+
+## Notes
+Catatan singkat hasil F00A sampai F00E: Seluruh fondasi workflow dan panduan penggunaan WebPWK telah berhasil didirikan dan diselaraskan strukturnya, siap diadaptasi untuk project turunan.

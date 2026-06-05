@@ -53,6 +53,50 @@ Setiap batch dianggap selesai jika:
 4. Laporan eksekutor sudah diserahkan.
 5. User telah me-review, commit, dan push ke repository.
 
+## Adaptasi Template dan Kedalaman Dokumentasi
+
+WebPWK adalah template yang harus disesuaikan dengan kebutuhan project turunan. File seperti `README.md` dan `FEATURES.md` di project turunan wajib diubah untuk mencerminkan project nyata.
+
+### Aturan Adaptasi README.md
+README project turunan sebaiknya berisi:
+- Nama project dan deskripsi singkat
+- Kenapa project dibuat & target pengguna
+- Fitur utama & teknologi yang digunakan
+- Struktur folder & cara menjalankan local development
+- Status project & catatan deployment jika ada
+
+### Aturan Adaptasi FEATURES.md
+FEATURES project turunan sebaiknya berisi daftar fitur nyata:
+- Fitur public user, customer/login, admin
+- Fitur backend/API & database
+- Fitur deployment
+- Status fitur: Planned, In Progress, Completed, Partial, Blocked, HOLD
+
+### Jenis Project Turunan (Project Type)
+1. **Static / Landing Page**: Cocok untuk web tanpa backend.
+2. **Frontend-only Dynamic Website**: Cocok untuk web dinamis dengan API eksternal/BaaS.
+3. **Fullstack Single Role**: Cocok untuk aplikasi dengan satu jenis user (misal CMS admin saja atau user saja).
+4. **Fullstack Multi Role**: Cocok untuk aplikasi dengan beberapa jenis hak akses.
+5. **Fullstack Multi Role + Admin CMS**: Cocok untuk sistem kompleks dengan manajemen penuh.
+
+### Kedalaman Dokumentasi (Documentation Depth)
+Kedalaman dokumentasi mengikuti kompleksitas project:
+- **Static / Landing Page**: README wajib disesuaikan. FEATURES berisi fitur section/halaman. Frontend docs ringan. Backend/Database docs tidak wajib.
+- **Frontend-only Dynamic**: README disesuaikan. FEATURES berisi fitur web. Frontend docs wajib. Backend/Database docs hanya jika ada integrasi eksternal.
+- **Fullstack Single Role**: README disesuaikan. FEATURES berisi fitur front & back. Frontend & Backend docs wajib. Database docs wajib jika ada. Role matrix tidak wajib (cukup role utama).
+- **Fullstack Multi Role**: README disesuaikan. FEATURES berisi fitur per role. Semua docs wajib. Role matrix, API contract, dan database ownership wajib.
+- **Fullstack Multi Role + Admin CMS**: Semua dokumentasi wajib. Role & permission matrix, API contract, database ownership, dan admin feature tracker wajib. Checkpoint dokumentasi lebih sering.
+
+### Documentation Debt / Docs Later
+Kerja teknis boleh mendahului dokumentasi detail, tetapi harus dicatat sebagai **Documentation Debt**.
+Gunakan Documentation Debt ketika:
+- Client sudah berubah tapi docs/frontend belum diupdate.
+- Server/backend sudah berubah tapi docs/backend belum diupdate.
+- Database/schema sudah berubah tapi docs/database belum diupdate.
+- README/FEATURES belum disesuaikan setelah project berubah.
+
+Documentation Debt wajib diselesaikan melalui eksekusi **FXX-CP — Documentation Checkpoint**.
+
 ## Safety Rules
 - Jangan menyimpan credential/secret di repository (gunakan file `.env.example` sebagai panduan).
 - Jangan men-generate kode ekstensif di luar scope instruksi.

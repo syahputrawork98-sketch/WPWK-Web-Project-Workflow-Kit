@@ -14,3 +14,9 @@ Dokumen ini berisi daftar fitur sistem workflow yang digunakan dalam WebPWK.
 - **Backend Role and Permission Documentation Rule**: Standar penulisan API endpoint dan middleware.
 - **Database Access and Ownership Documentation Rule**: Standar penulisan skema relasi dan kepemilikan data.
 - **Single Role / Multi Role Project Recording Rule**: Aturan pembedaan dokumentasi antara project dengan satu atau banyak role.
+- **Project Type Rule System**: Standar jenis project turunan.
+- **Documentation Depth Rule**: Aturan kedalaman dokumentasi sesuai kompleksitas project.
+- **Template Adaptation Rule**: Panduan menyesuaikan template untuk project nyata.
+- **README Adaptation Rule**: Standar penulisan ulang README untuk project turunan.
+- **FEATURES Adaptation Rule**: Standar penulisan ulang FEATURES untuk project turunan.
+- **Documentation Debt / Docs Later Rule**: Mekanisme penundaan pembaruan dokumen melalui checkpoint.

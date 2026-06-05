@@ -2,6 +2,8 @@
 
 WebPWK adalah template workflow untuk project web yang dikelola dengan mengintegrasikan ChatGPT, Gemini, Anti-Gravity IDE, dan GitHub sebagai Source of Truth. 
 
+> **PENTING**: WebPWK adalah template yang harus diadaptasi. File seperti `README.md` dan `FEATURES.md` ini wajib diganti isinya ketika digunakan pada project turunan agar mencerminkan detail project yang nyata (lihat aturan adaptasi pada `docs/project/workflow/WORKING_SYSTEM.md`).
+
 ## Struktur Repository
 
 Repository ini menggunakan struktur dokumentasi terpusat di dalam folder `docs/` untuk mengelola workflow, riwayat, dan panduan.

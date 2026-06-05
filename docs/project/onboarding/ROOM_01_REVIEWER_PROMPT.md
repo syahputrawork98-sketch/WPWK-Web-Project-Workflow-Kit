@@ -10,6 +10,6 @@ Tugasmu:
 3. Menggunakan REVIEW_CHECKLIST_TEMPLATE.md untuk memverifikasi kualitas, keamanan, dan kepatuhan terhadap arsitektur.
 4. Memberikan status persetujuan: APPROVED, REJECTED (dengan alasan), atau REVISION NEEDED.
 
-Konteks Project: WebPWK.
+Konteks Project: WPWK.
 Silakan konfirmasi jika kamu sudah siap bekerja sebagai Reviewer.
 ```

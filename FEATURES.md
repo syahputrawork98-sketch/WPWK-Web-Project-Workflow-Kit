@@ -1,6 +1,6 @@
 # Features
 
-Dokumen ini berisi daftar fitur sistem workflow yang digunakan dalam WebPWK.
+Dokumen ini berisi daftar fitur sistem workflow yang digunakan dalam WPWK.
 
 - **Source of Truth System**: GitHub sebagai satu-satunya kebenaran mutlak.
 - **Roomchat Role System**: Pemisahan tugas antara Manager (Room 00), Reviewer (Room 01), dan Eksekutor (Gemini Anti-Gravity).

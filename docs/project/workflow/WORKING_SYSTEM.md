@@ -1,6 +1,6 @@
 # Working System
 
-Sistem kerja WebPWK dirancang untuk keamanan, konsistensi, dan keteraturan.
+Sistem kerja WPWK dirancang untuk keamanan, konsistensi, dan keteraturan.
 
 ## Prinsip Utama
 1. **GitHub sebagai Source of Truth**.
@@ -55,7 +55,7 @@ Setiap batch dianggap selesai jika:
 
 ## Adaptasi Template dan Kedalaman Dokumentasi
 
-WebPWK adalah template yang harus disesuaikan dengan kebutuhan project turunan. File seperti `README.md` dan `FEATURES.md` di project turunan wajib diubah untuk mencerminkan project nyata.
+WPWK adalah template yang harus disesuaikan dengan kebutuhan project turunan. File seperti `README.md` dan `FEATURES.md` di project turunan wajib diubah untuk mencerminkan project nyata.
 
 ### Aturan Adaptasi README.md
 README project turunan sebaiknya berisi:

@@ -4,4 +4,4 @@ Daftar riwayat fitur yang pernah dan sedang dikerjakan dalam project ini. (Hanya
 
 | Feature Batch | Feature Name | Status | Detail File |
 | --- | --- | --- | --- |
-| F00 | WebPWK Workflow Foundation | Completed | features/F00_PROJECT_WORKFLOW_FOUNDATION.md |
+| F00 | WPWK Workflow Foundation | Completed | features/F00_PROJECT_WORKFLOW_FOUNDATION.md |

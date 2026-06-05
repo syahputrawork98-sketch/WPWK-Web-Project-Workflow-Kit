@@ -1,13 +1,13 @@
-# Batch F00 — WebPWK Workflow Foundation
+# Batch F00 — WPWK Workflow Foundation
 
 ## Feature Summary
-Fondasi F00 membangun sistem kerja WebPWK sebagai template project web berbasis ChatGPT, Gemini Anti-Gravity, GitHub, batch, dokumentasi, dan validasi.
+Fondasi F00 membangun sistem kerja WPWK sebagai template project web berbasis ChatGPT, Gemini Anti-Gravity, GitHub, batch, dokumentasi, dan validasi.
 
 ## Status
 Completed
 
 ## Story
-F00 membangun sistem kerja WebPWK sebagai template project web berbasis ChatGPT, Gemini Anti-Gravity, GitHub, batch, dokumentasi, dan validasi.
+F00 membangun sistem kerja WPWK sebagai template project web berbasis ChatGPT, Gemini Anti-Gravity, GitHub, batch, dokumentasi, dan validasi.
 
 ## Current State
 * Fondasi dokumentasi sudah dibuat.
@@ -24,6 +24,7 @@ F00 membangun sistem kerja WebPWK sebagai template project web berbasis ChatGPT,
 | F00C | Technical Area Documentation Rules | Completed | Aturan teknis FE/BE/DB | F00A |
 | F00D | Project Type and Template Adaptation Rules | Completed | Aturan adaptasi template | F00C |
 | F00E | Feature File Format Alignment | Completed | Menyelaraskan format feature | F00A |
+| F00F | Project Naming Standardization | Completed | Menyeragamkan penamaan project | F00E |
 
 ## HOLD / Blocked Notes
 Tidak ada blocker aktif.
@@ -39,4 +40,4 @@ Lanjut ke perencanaan F01 (Project Foundation) jika user ingin mulai mengembangk
 - [x] Tidak ada kode/config/dependency.
 
 ## Notes
-Catatan singkat hasil F00A sampai F00E: Seluruh fondasi workflow dan panduan penggunaan WebPWK telah berhasil didirikan dan diselaraskan strukturnya, siap diadaptasi untuk project turunan.
+Catatan singkat hasil F00A sampai F00F: Seluruh fondasi workflow dan panduan penggunaan WPWK telah berhasil didirikan dan diselaraskan strukturnya, siap diadaptasi untuk project turunan.

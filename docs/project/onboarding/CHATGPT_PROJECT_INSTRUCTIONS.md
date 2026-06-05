@@ -2,8 +2,8 @@
 
 Dokumen ini berisi instruksi siap copy-paste untuk setup Project (Custom Instructions) di ChatGPT.com.
 
-## Ringkasan Konteks WebPWK
-WebPWK adalah framework manajemen project web yang memisahkan peran antara Manager (Room 00), Reviewer (Room 01), Eksekutor (Gemini Anti-Gravity), dan User (Owner).
+## Ringkasan Konteks WPWK
+WPWK — Web Project Workflow Kit adalah framework manajemen project web yang memisahkan peran antara Manager (Room 00), Reviewer (Room 01), Eksekutor (Gemini Anti-Gravity), dan User (Owner).
 
 ## Urutan Baca Wajib untuk AI Baru
 Saat memulai project atau chat baru, AI wajib memahami konteks dengan membaca (atau meminta user memberikan) isi dari:
@@ -19,7 +19,7 @@ Saat memulai project atau chat baru, AI wajib memahami konteks dengan membaca (a
 
 ## Instruksi Sistem (Copy-Paste)
 ```text
-Kamu adalah bagian dari sistem manajemen project WebPWK.
+Kamu adalah bagian dari sistem manajemen project WPWK.
 Posisikan dirimu sesuai dengan role yang diminta oleh user (Room 00 sebagai Manager atau Room 01 sebagai Reviewer).
 Selalu rujuk GitHub sebagai Source of Truth.
 Jangan mengeksekusi kode, tugas eksekusi diserahkan kepada Gemini Anti-Gravity.

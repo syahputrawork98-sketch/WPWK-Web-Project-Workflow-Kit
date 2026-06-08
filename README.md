@@ -1,32 +1,16 @@
-# WPWK — Web Project Workflow Kit
+# WK-Workflow-Kit (Control Room)
 
-WPWK (Web Project Workflow Kit) adalah template arsitektur dan workflow untuk pengembangan project web yang dikelola dengan mengintegrasikan ChatGPT, Gemini, Anti-Gravity IDE, dan GitHub sebagai Source of Truth.
+Repositori **WK-Workflow-Kit** berfungsi murni sebagai **Control Room** (Ruang Kendali) konseptual. Repositori ini tidak menyimpan *codebase* aplikasi maupun riwayat (*history*) dari spesifik project.
 
-> **PENTING**: Repositori ini sekarang mendukung dua alur (Mode) utama: **Greenfield Mode** (pembuatan dari nol) dan **Existing Mode** (adopsi project berjalan). Silakan baca file `START_HERE.md` sebelum memulai.
+Fungsi utama repositori ini adalah untuk menjelaskan arsitektur dan sistem operasi bagi dua tipe project yang menggunakan metodologi WPWK (Web Project Workflow Kit).
 
-## Struktur Repository
-Repositori ini disusun agar terstruktur dan aman saat bekerja sama dengan eksekutor AI:
+## Navigasi Panduan
 
-- `START_HERE.md` - Pintu masuk utama bagi user dan AI untuk memilih mode.
-- `WK-Web-Greenfield/` - Workspace untuk mode Greenfield. Di sinilah letak folder `client/` dan `server/` jika Anda memulai aplikasi dari nol.
-- `WK-Web-Existing/` - Workspace untuk mode Existing Project. Digunakan jika Anda ingin menempatkan kode project lama Anda untuk mulai diaudit dan dikontrol.
-- `docs/` - Pusat kendali dokumentasi dan riwayat.
-  - `docs/project/` - Dokumentasi utama project, onboarding, dan aturan workflow.
-  - `docs/history/` - Tracker fitur (`CURRENT_STATUS.md`, `FEATURE_HISTORY.md`) dan roadmap.
-  - `docs/frontend/` - Area dokumentasi khusus frontend.
-  - `docs/backend/` - Area dokumentasi khusus backend.
-  - `docs/database/` - Area dokumentasi khusus database.
-  - `docs/deployment/` - Area dokumentasi khusus infrastruktur.
+Silakan pelajari dokumen di dalam folder `docs/` sesuai dengan jenis repositori (workspace) yang sedang Anda kelola:
 
-## Prinsip Utama
-1. **GitHub sebagai Source of Truth**: Semua perubahan diakui hanya yang sudah ter-push ke GitHub.
-2. **Pemisahan Peran**:
-   - **User**: Pengambil keputusan, reviewer akhir, pelaku commit/push.
-   - **Roomchat 00**: Manager Utama (ChatGPT).
-   - **Roomchat 01**: Reviewer/Auditor (ChatGPT).
-   - **Gemini**: Eksekutor teknis di workspace (Anti-Gravity IDE).
-3. **Dual Mode Adoption**: Mendukung pembuatan dari nol (Greenfield) maupun merapikan project lama (Existing).
-4. **Batch Gate System**: Pekerjaan dibagi dalam Batch Terkontrol (FXX).
+- **[WK-Web-Greenfield](docs/WK-Web-Greenfield.md)**: Baca dokumen ini jika Anda sedang berhadapan dengan project yang benar-benar baru, di mana kode dibangun dari titik nol.
+- **[WK-Web-Existing](docs/WK-Web-Existing.md)**: Baca dokumen ini jika Anda sedang berusaha mengadopsi, mengaudit, dan mengendalikan project lama yang *codebase*-nya sudah beroperasi.
 
-## Status Awal Project
-Project WPWK ini berstatus inisialisasi workflow foundation. Detail tracker ada di `docs/history/CURRENT_STATUS.md`.
+## Prinsip Control Room
+Repositori fisik project (Greenfield maupun Existing) harus memiliki folder `docs/`-nya masing-masing secara independen untuk melacak status, fitur, dan dokumentasi teknis (`frontend`, `backend`, dsb).
+WK-Workflow-Kit ini sekadar menjadi manual operasional bagi sistem-sistem tersebut.

@@ -1,4 +1,4 @@
-# Existing Project Documentation Adoption — WPWK
+# Existing Mode — WPWK
 
 ## Fungsi Dokumen
 Dokumen ini digunakan saat WPWK diterapkan ke project yang sudah memiliki client/server atau codebase berjalan, tetapi dokumentasi, history, dan workflow kontrolnya belum rapi.

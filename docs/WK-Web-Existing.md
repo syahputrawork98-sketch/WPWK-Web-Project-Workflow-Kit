@@ -1,19 +1,16 @@
 # WK-Web-Existing
 
-Repositori/Workspace **WK-Web-Existing** digunakan secara eksklusif untuk project web yang sudah memiliki *codebase* atau infrastruktur yang sedang berjalan, namun ingin diadopsi ke dalam sistem **WPWK**.
+WK-Web-Existing adalah template yang dirancang khusus untuk project web yang aplikasinya atau *codebase*-nya sudah ada dan sedang berjalan.
 
-## Karakteristik Mode Existing
-- **Codebase Awal**: Sudah terisi aplikasi (misal `client/` dan `server/` sudah beroperasi).
-- **Fokus Utama**: Pemetaan (Mapping), Audit, Pembuatan Inventory Fitur, dan penyelarasan Dokumentasi tanpa mengganggu sistem yang sudah berjalan.
-- **Pendekatan AI**: AI (Gemini) diinstruksikan dalam mode **Read-Only** pada tahap awal. AI dilarang keras mengubah, menghapus, atau meng-install dependensi apa pun tanpa *audit summary* yang lengkap.
+## Karakteristik
+- **Sudah Ada Codebase**: Digunakan ketika project sudah memiliki struktur folder sendiri (seperti `client`, `server`, atau struktur kustom lainnya), dan pernah dikerjakan sebelumnya.
+- **Fokus pada Kontrol**: Tujuan utama template ini bukanlah menulis fitur baru di awal, melainkan melakukan **audit**, **mapping**, merapikan dokumentasi, dan mendata fitur yang sudah ada (*feature inventory*).
+- **Pendekatan Bertahap**: Proses adopsi dilakukan perlahan agar project lama bisa masuk ke sistem kerja WK dengan rapi. Lakukan audit dulu, mapping dulu, baru setelah itu mengeksekusi *controlled batch*.
 
-## Alur Kerja (Workflow)
-1. **Adoption Pre-Scan (Level 0)**: AI sekadar membaca struktur project, konfigurasi (*package.json*, env), dan dokumentasi lama yang ada. Tidak ada file yang dibuat atau diubah.
-2. **Minimal Control Layer (Level 1)**: Menyiapkan `docs/history/CURRENT_STATUS.md` untuk melacak status adopsi.
-3. **Documentation Mapping (Level 2)**: Menilai dokumen yang sudah ada (README lama, wiki) apakah akan dipertahankan, dihapus, atau ditulis ulang.
-4. **Feature Inventory (Level 3)**: Mendaftarkan seluruh fitur yang sudah ada ke dalam status *Existing / Needs Review*. Jangan pernah berasumsi sebuah fitur "Completed" sebelum diverifikasi.
-5. **Technical Batch (Level 4-5)**: Baru pada tahap ini kode aplikasi (`client` / `server`) boleh disesuaikan atau di-*refactor*.
+## Kapan Menggunakannya?
+Gunakan template ini ketika Anda ingin mengontrol ulang project lama yang dokumentasi atau *history*-nya belum rapi, tanpa merusak sistem yang sudah berjalan.
 
 ## Aturan Penting
-- **Jangan menimpa paksa!** Jika project lama tidak menggunakan pola folder standar (misalnya memakai `apps/web`), ikuti pola tersebut. Jangan memaksa membuat folder `client/` baru.
-- Adopsi adalah proses progresif. Lakukan secara perlahan dari audit hingga kontrol penuh.
+- **Jangan merusak struktur lama**: Jangan langsung menimpa `README.md` lama, menghapus folder, atau mengubah letak `client` dan `server` bawaan project pada tahap awal adopsi.
+- **Validasi fitur**: Jangan pernah menyebut fitur existing sebagai "Completed" sebelum fitur tersebut benar-benar divalidasi ulang.
+- **Bukan untuk project baru**: Jika Anda belum memiliki kode apa pun dan ingin membangun dari nol, gunakanlah `WK-Web-Greenfield`.

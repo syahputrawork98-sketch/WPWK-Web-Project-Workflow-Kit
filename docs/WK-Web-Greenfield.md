@@ -1,17 +1,14 @@
 # WK-Web-Greenfield
 
-Repositori/Workspace **WK-Web-Greenfield** digunakan secara eksklusif untuk membangun project web yang benar-benar baru dari nol (tanpa *codebase* sebelumnya).
+WK-Web-Greenfield adalah template yang dirancang khusus untuk memulai project web baru dari nol.
 
-## Karakteristik Mode Greenfield
-- **Codebase Awal**: Kosong atau sekadar template *boilerplate*.
-- **Fokus Utama**: Menyiapkan arsitektur dasar, mengonfigurasi *environment*, dan membangun fitur tahap demi tahap (F01, F02, dst).
-- **Pendekatan AI**: AI diinstruksikan untuk membuat file baru, struktur folder, dan melakukan *scaffolding* project.
+## Karakteristik
+- **Belum Ada Codebase**: Digunakan ketika Anda benar-benar memulai dari awal, tanpa ada kode sisa atau infrastruktur sebelumnya.
+- **Membangun Fondasi**: Template ini sangat cocok untuk tahap pembuatan struktur awal aplikasi, pemilihan *tech stack*, pembuatan folder `client` dan `server`, serta setup *environment*.
+- **History Murni**: Riwayat pengembangan (*feature history*) akan tercatat rapi sejak baris kode pertama ditulis di dalam project turunannya.
 
-## Alur Kerja (Workflow)
-1. **Inisiasi**: Gunakan `npx` atau *starter kit* pilihan di dalam folder `WK-Web-Greenfield`.
-2. **Dokumentasi Dasar**: Setup `docs/history/CURRENT_STATUS.md` dan pastikan catatan fitur (FXX) berjalan sejak baris kode pertama ditulis.
-3. **Validasi (Batch Gate)**: Sebelum meminta eksekutor (Gemini) menulis kode, pastikan Roomchat 00 dan 01 telah menyepakati langkah-langkah implementasinya.
+## Kapan Menggunakannya?
+Gunakan template ini ketika Anda mendapatkan ide baru atau project baru yang belum pernah dikerjakan sama sekali.
 
-## Aturan Penting
-- Jangan pernah menjalankan *commit* atau *push* dari sisi AI. Hanya **User** yang memiliki hak penuh terhadap kontrol versi.
-- Selalu patuhi standar penulisan dokumentasi sesuai area masing-masing (`frontend`, `backend`, `database`, `deployment`).
+## Batasan
+- **Bukan untuk project lama**: Jika Anda sudah memiliki aplikasi yang sedang berjalan, kode yang sudah ditulis, atau project yang pernah di-*deploy*, **jangan** gunakan template ini. Gunakanlah `WK-Web-Existing`.

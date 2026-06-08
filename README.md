@@ -1,16 +1,51 @@
-# WK-Workflow-Kit (Control Room)
+# WK-Workflow-Kit
 
-Repositori **WK-Workflow-Kit** berfungsi murni sebagai **Control Room** (Ruang Kendali) konseptual. Repositori ini tidak menyimpan *codebase* aplikasi maupun riwayat (*history*) dari spesifik project.
+WK-Workflow-Kit adalah control room utama untuk mengatur penggunaan dua template kerja dalam sistem WK, yaitu WK-Web-Greenfield dan WK-Web-Existing.
 
-Fungsi utama repositori ini adalah untuk menjelaskan arsitektur dan sistem operasi bagi dua tipe project yang menggunakan metodologi WPWK (Web Project Workflow Kit).
+Repository ini tidak digunakan untuk menyimpan codebase aplikasi, tidak menyimpan history project tertentu, dan tidak menjadi template kerja langsung untuk project. Fungsi utamanya adalah menjadi peta induk agar user tahu kapan harus memakai template Greenfield dan kapan harus memakai template Existing.
 
-## Navigasi Panduan
+## Struktur WK
 
-Silakan pelajari dokumen di dalam folder `docs/` sesuai dengan jenis repositori (workspace) yang sedang Anda kelola:
+WK-Workflow-Kit berada di posisi paling atas.
 
-- **[WK-Web-Greenfield](docs/WK-Web-Greenfield.md)**: Baca dokumen ini jika Anda sedang berhadapan dengan project yang benar-benar baru, di mana kode dibangun dari titik nol.
-- **[WK-Web-Existing](docs/WK-Web-Existing.md)**: Baca dokumen ini jika Anda sedang berusaha mengadopsi, mengaudit, dan mengendalikan project lama yang *codebase*-nya sudah beroperasi.
+```text
+WK-Workflow-Kit
+├── WK-Web-Greenfield
+└── WK-Web-Existing
+```
 
-## Prinsip Control Room
-Repositori fisik project (Greenfield maupun Existing) harus memiliki folder `docs/`-nya masing-masing secara independen untuk melacak status, fitur, dan dokumentasi teknis (`frontend`, `backend`, dsb).
-WK-Workflow-Kit ini sekadar menjadi manual operasional bagi sistem-sistem tersebut.
+## Peran Setiap Repository
+
+### WK-Workflow-Kit
+Digunakan sebagai control room atau panduan utama. Repo ini menjelaskan pembagian workflow dan batas penggunaan setiap template.
+
+### WK-Web-Greenfield
+Digunakan untuk memulai project web dari nol. Template ini cocok ketika belum ada codebase sebelumnya dan project perlu dibangun dari awal.
+
+### WK-Web-Existing
+Digunakan untuk project yang aplikasinya sudah ada. Template ini cocok ketika user ingin mengadopsi, mengaudit, merapikan dokumentasi, membuat history, dan mengontrol project lama tanpa langsung menimpa codebase.
+
+## Cara Memilih Template
+
+Gunakan **WK-Web-Greenfield** jika:
+- project benar-benar baru;
+- belum ada client/server;
+- belum ada struktur aplikasi;
+- ingin membangun dari nol;
+- ingin memulai feature history sejak awal.
+
+Gunakan **WK-Web-Existing** jika:
+- aplikasi/codebase sudah ada;
+- sudah ada client/server atau struktur project lama;
+- project pernah berjalan/deploy;
+- dokumentasi dan history belum rapi;
+- user ingin melakukan audit, mapping, dan kontrol project secara bertahap.
+
+## Batasan
+
+WK-Workflow-Kit tidak dipakai untuk:
+- menulis kode aplikasi;
+- menyimpan fitur project tertentu;
+- menyimpan CURRENT_STATUS.md milik project tertentu;
+- menyimpan feature history project tertentu;
+- menggantikan WK-Web-Greenfield atau WK-Web-Existing.

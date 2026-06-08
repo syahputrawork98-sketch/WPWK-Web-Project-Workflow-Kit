@@ -1,12 +1,23 @@
 # WK-Workflow-Kit
 
-WK-Workflow-Kit adalah control room utama untuk mengatur penggunaan dua template kerja dalam sistem WK, yaitu WK-Web-Greenfield dan WK-Web-Existing.
+## Overview
+WK-Workflow-Kit is an AI-assisted web development workflow and a personal workflow control system. It acts as the master control layer for managing web development processes, prioritizing structured documentation, clear role separation, and comprehensive feature history.
 
-Repository ini tidak digunakan untuk menyimpan codebase aplikasi, tidak menyimpan history project tertentu, dan tidak menjadi template kerja langsung untuk project. Fungsi utamanya adalah menjadi peta induk agar user tahu kapan harus memakai template Greenfield dan kapan harus memakai template Existing.
+## Purpose
+This repository was created to bring order to web development projects. In many development scenarios—especially those assisted by AI—projects can quickly become messy and unmanageable without a clear workflow, proper documentation, robust feature history tracking, and strict role definitions. WK-Workflow-Kit enforces a systematic approach from the very beginning.
 
-## Struktur WK
+## Problem It Solves
+WK-Workflow-Kit addresses several common development pitfalls:
+- Projects starting without clear direction or architecture.
+- Diving straight into coding without proper briefing or planning.
+- Messy, scattered, or non-existent documentation.
+- Unrecorded feature histories, making it difficult to track what was built and why.
+- Existing or legacy projects becoming too difficult to continue or refactor.
+- AI/Gemini instructions becoming too loose or unconstrained.
+- Uncontrolled chat sessions and unpredictable workflows.
 
-WK-Workflow-Kit berada di posisi paling atas.
+## System Structure
+The system is divided into a main control room and two specialized workflow templates:
 
 ```text
 WK-Workflow-Kit
@@ -14,38 +25,38 @@ WK-Workflow-Kit
 └── WK-Web-Existing
 ```
 
-## Peran Setiap Repository
+## Workflow Repositories
+- **WK-Workflow-Kit**: The control room, master map, and primary container. It dictates the rules of engagement and routes the project to the appropriate workflow.
+- **WK-Web-Greenfield**: The workflow template designed for brand-new projects starting from scratch.
+- **WK-Web-Existing**: The workflow template designed for existing projects that need to be audited, cleaned up, documented, or continued.
 
-### WK-Workflow-Kit
-Digunakan sebagai control room atau panduan utama. Repo ini menjelaskan pembagian workflow dan batas penggunaan setiap template.
+## When to Use WK-Web-Greenfield
+Choose the Greenfield workflow when:
+- The project is entirely new.
+- There is no existing codebase.
+- There is no client/server structure yet.
+- You want to build the architecture and application from the ground up.
+- The feature history needs to start fresh from zero.
 
-### WK-Web-Greenfield
-Digunakan untuk memulai project web dari nol. Template ini cocok ketika belum ada codebase sebelumnya dan project perlu dibangun dari awal.
+## When to Use WK-Web-Existing
+Choose the Existing workflow when:
+- The application or codebase already exists.
+- The client/server or legacy structures are already in place.
+- The project has been previously run or deployed.
+- The documentation is incomplete, messy, or missing.
+- The feature history is unclear or undocumented.
+- The project needs an audit, cleanup, or safe continuation without breaking the existing codebase.
 
-### WK-Web-Existing
-Digunakan untuk project yang aplikasinya sudah ada. Template ini cocok ketika user ingin mengadopsi, mengaudit, merapikan dokumentasi, membuat history, dan mengontrol project lama tanpa langsung menimpa codebase.
+## What This Repository Is Not
+**WK-Workflow-Kit has strict boundaries.** It is a control layer, meaning it is **NOT** used for:
+- Writing application source code (frontend or backend).
+- Storing feature specifications for a specific web application.
+- Storing the `CURRENT_STATUS.md` or checkpoint of a specific project.
+- Storing the `FEATURE_HISTORY.md` of a specific project.
+- Replacing the actual workflows (`WK-Web-Greenfield` or `WK-Web-Existing`). 
 
-## Cara Memilih Template
+## Learning Value
+This repository is an integral part of an ongoing learning process to build a better, more structured, well-documented, and AI-assisted web development system. It represents the transition from ad-hoc coding to a professional, systematic workflow engineering approach.
 
-Gunakan **WK-Web-Greenfield** jika:
-- project benar-benar baru;
-- belum ada client/server;
-- belum ada struktur aplikasi;
-- ingin membangun dari nol;
-- ingin memulai feature history sejak awal.
-
-Gunakan **WK-Web-Existing** jika:
-- aplikasi/codebase sudah ada;
-- sudah ada client/server atau struktur project lama;
-- project pernah berjalan/deploy;
-- dokumentasi dan history belum rapi;
-- user ingin melakukan audit, mapping, dan kontrol project secara bertahap.
-
-## Batasan
-
-WK-Workflow-Kit tidak dipakai untuk:
-- menulis kode aplikasi;
-- menyimpan fitur project tertentu;
-- menyimpan CURRENT_STATUS.md milik project tertentu;
-- menyimpan feature history project tertentu;
-- menggantikan WK-Web-Greenfield atau WK-Web-Existing.
+## Portfolio Summary
+**WK-Workflow-Kit** is a master control layer for an AI-assisted web project workflow system. Rather than a user-facing application, it is a personal workflow system designed to manage both greenfield projects and legacy codebase adoptions. It enforces strict documentation, feature history tracking, and AI role constraints to ensure scalable and maintainable development cycles.
